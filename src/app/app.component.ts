@@ -59,8 +59,12 @@ export class AppComponent {
       };
 
       console.log('data collected', this.wholedata);
+      alert("Form submitted sucessfully");
+
     } else {
       console.log('Please fill all required fields');
+      alert("please fill all fields");
+      
     }
   }
 
