@@ -16,11 +16,18 @@ import {MatSelectModule} from '@angular/material/select';
 import {MatRadioModule} from '@angular/material/radio';
 import {MatListModule} from '@angular/material/list';
 import { DatePipe } from '@angular/common';
+import { FormComponent } from './form/form.component';
+import { PdfComponent } from './pdf/pdf.component';
+import { HomeComponent } from './home/home.component';
+import {MatGridListModule} from '@angular/material/grid-list';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    FormComponent,
+    PdfComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
@@ -38,7 +45,8 @@ import { DatePipe } from '@angular/common';
     MatNativeDateModule,
     MatSelectModule,
     MatRadioModule,
-    MatListModule
+    MatListModule,
+    MatGridListModule
     
   ],
  

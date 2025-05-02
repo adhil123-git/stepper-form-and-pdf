@@ -1,0 +1,17 @@
+.btn-1,.btn-2{
+    border-radius: 10px;
+    padding: 10px;
+    background-color:  rgb(42, 84, 224);
+    width:auto;
+    height: auto;
+    margin: 10px;
+    border: none;
+    
+}
+.btn-1:hover,.btn-2:hover{
+    box-shadow:  -6px 6px 10px grey;
+}
+.div-1{
+    margin-top: 200px;
+    margin-left: 500px;
+}
