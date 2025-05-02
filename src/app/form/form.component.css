@@ -25,7 +25,11 @@ mat-grid-tile {
 
 }
 
-.page-change-btn-2 {
+.page-change-btn-2,.page-change-btn-3 {
     margin-left: 420px;
     margin-top: 50px;
+}
+.page-change-btn-4{
+margin-left:270px;
+margin-top:20px;
 }
