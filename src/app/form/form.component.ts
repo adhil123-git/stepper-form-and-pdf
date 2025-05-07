@@ -16,9 +16,9 @@ import { DatePipe } from '@angular/common';
   providers: [{ provide: STEPPER_GLOBAL_OPTIONS, useValue: { showError: true } }]
 })
 export class FormComponent {
-  isLinear = false;
+  isLinear = true;
   wholedata: any = {};
-  router: any;
+
 
   constructor(private fb: FormBuilder, private dp: DatePipe) { }
 
